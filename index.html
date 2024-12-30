@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RevatiUpadhye</title>
+    <link rel="icon" href="assets\r.png" type="image/png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Revati Upadhye</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Revati Upadhye</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets\profile.png" alt="Revati Upadhye profile picture" class="profile-pic oval-pic"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1" id="typing-text"></p>
+        <h1 class="title" id="name"></h1> <!-- Empty initially for typing effect -->
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/RevatiUpadhye_2024.pdf')">
+                Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+            </button>
+        </div>
+        <div id="socials-container">
+            <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/revati-upadhye-37984b291/'" />
+            <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/UpadhyeRevati04'" />
+        </div>
+    </div>
+    
+    </section>
+    
+    <section id="about">
+      <p class="section__text__p1">Get To Know me</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <!-- Profile Picture Section -->
+        <div class="section__pic-container">
+          <img
+            src="assets/IMG_20240928_154020 (1).jpg"
+            alt="Profile picture of Revati Upadhye"
+            class="about-pic"
+          />
+        </div>
+        
+        <!-- Details and Roadmap Section -->
+        <div class="about-details-container">
+          <!-- Education Roadmap -->
+          <div class="roadmap-container">
+            <div class="education-roadmap">
+              <!-- High School Node -->
+              <div class="node">
+                <div class="icon-container">
+                  <img
+                    src="assets/education.png"
+                    alt="High School Education Icon"
+                    class="icon"
+                  />
+                </div>
+                <h4>High School</h4>
+                <p>Completed with a focus on Science and Mathematics.</p>
+              </div>
+              
+              <div class="connector"></div>
+              
+              <!-- Bachelor's Degree Node -->
+              <div class="node">
+                <div class="icon-container">
+                  <img
+                    src="assets/education.png"
+                    alt="Bachelor's Degree Icon"
+                    class="icon"
+                  />
+                </div>
+                <h4>Diploma in Computer Engineering</h4>
+                <p>Field: Computer Science<br>Completed: 2023</p>
+              </div>
+              
+              <div class="connector"></div>
+              
+              <!-- Master's Degree Node -->
+              <div class="node">
+                <div class="icon-container">
+                  <img
+                    src="assets/education.png"
+                    alt="Master's Degree Icon"
+                    class="icon"
+                  />
+                </div>
+                <h4>B.E. in Information Technology</h4>
+                <p>Field: Information Technology<br>Pursuing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Navigation Arrow -->
+      <img
+        src="assets/arrow.png"
+        alt="Navigate to Experience Section"
+        class="icon arrow"
+        onclick="window.location.href='./#experience'"
+      />
+    </section>
+    
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+            
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Database</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Oracle</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MongoDB</h3>
+                  <p>Experienced
+                  </p>
+                </div>
+              </article>
+              <h2 class="experience-sub-title">Version Control</h2>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Github</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Operating System</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Windows</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Linux (Ubuntu)</h3>    
+                </div>
+              </article>
+              <h2 class="experience-sub-title">Devlopment Tools</h2>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NetBeans</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VS Code</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="experience-details-container">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Computer Networks</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Basic Knowledge</h3>
+                      <p>Understanding of fundamental concepts in Computer Networks.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="details-container">
+                <h2 class="experience-sub-title">Cloud Computing</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Basic Knowledge</h3>
+                      <p>Familiar with cloud concepts like SaaS, IaaS, and PaaS.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <!-- certification -->
+    <section id="certificates">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Certificates</h1>
+      <div class="certificates-container">
+        <div class="certificate-container">
+          <img
+            src="assets\Certificate1.jpeg"
+            alt="Certificate 1"
+            class="certificate-img"
+          />
+          <h3 class="certificate-title">Certificate in Java Programming</h3>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 certificate-btn"
+              onclick="location.href='https://www.hackerrank.com/certificates/iframe/0e7caec0c842'"
+            >
+              View
+            </button>
+          </div>
+        </div>
+        <div class="certificate-container">
+          <img
+            src="assets\Certificate2.jpg"
+            alt="Certificate 2"
+            class="certificate-img"
+          />
+          <h3 class="certificate-title">Linux in Begineer</h3>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 certificate-btn"
+              onclick="location.href='https://drive.google.com/drive/u/0/folders/1i_COVq4hSbVbiDOIww9xzmAbORiW6ihO'"
+            >
+              View
+            </button>
+          </div>
+        </div>
+        <div class="certificate-container">
+          <img
+            src="assets\Certificate3.jpeg"
+            alt="Certificate 3"
+            class="certificate-img"
+          />
+          <h3 class="certificate-title">Operating System</h3>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 certificate-btn"
+              onclick="location.href='https://drive.google.com/drive/u/0/folders/1i_COVq4hSbVbiDOIww9xzmAbORiW6ihO'"
+            >
+              View
+            </button>
+          </div>
+        </div>
+        <div class="certificate-container">
+          <img
+            src="assets\Certificate4.png"
+            alt="Certificate 3"
+            class="certificate-img"
+          />
+          <h3 class="certificate-title">Software Engineering</h3>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 certificate-btn"
+              onclick="location.href='https://www.hackerrank.com/certificates/iframe/952d9735b302"
+            >
+              View
+            </button>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets\Project1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Expensify</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/UpadhyeRevati04/ExpenseTracker'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://upadhyerevati04.github.io/ExpenseTracker/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets\Project2.jpeg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Quiz App (Java)</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/UpadhyeRevati04/QuizApplication/tree/main/QuizApp-Java-master'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets\Project3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Brick Breaker (Java)</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/UpadhyeRevati04/JavaProjectCollection/tree/main/BrickBreaker'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+      
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Revati Upadhye. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
